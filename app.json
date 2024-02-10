@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Smart Field",
+    "slug": "smart-field",
+    "description": "Have a look on your field remotely with Smart Field",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://res.cloudinary.com/dluwcubyw/image/upload/v1705967581/capstone/plant_1_f5tkn5.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "https://res.cloudinary.com/dluwcubyw/image/upload/v1705967616/capstone/splash_vpngdm.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.shelby_padre.smartfield"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "263264a7-886a-4755-9aa6-f39eac5100ec"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/263264a7-886a-4755-9aa6-f39eac5100ec"
+    }
+  }
+}
